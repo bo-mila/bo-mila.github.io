@@ -10,6 +10,10 @@
   gap: 0 8px;
 }
 
+#wrapper li {
+  line-height: 20px;
+}
+
 a:nth-child(2) {
   text-decoration: none;
   display: inline-block;
