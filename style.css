@@ -1,0 +1,21 @@
+#wrapper {
+  padding: 10px;
+}
+
+#wrapper ul {
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 0 8px;
+}
+
+a:nth-child(2) {
+  text-decoration: none;
+  display: inline-block;
+  transition: 300ms;
+}
+
+a:nth-child(2):hover {
+  transform: scale(1.4);
+}
