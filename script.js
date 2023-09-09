@@ -1,4 +1,4 @@
-getReposData('unibreakfast').then(links => {
+getReposData('bo-mila').then(links => {
   wrapper.innerHTML = `
     <nav>
       <ul>${
