@@ -1,4 +1,4 @@
-getReposData('bo-mila').then(links => {
+getReposData('milabozhevskaya').then(links => {
   wrapper.innerHTML = `
     <nav>
       <ul>${
